@@ -6,8 +6,8 @@ import './App.css';
 import AuthPage from './pages/AuthPage';
 import DashboardPage from './pages/DashboardPage';
 import TicketsPage from './pages/TicketsPage';
+import CreateTicketPage from './pages/CreateTicketPage';
 
-const CreateTicketPage = () => <div className='p-4'><h1>Create Ticket</h1><p>Coming soon...</p></div>;
 const NotFoundPage = () => <div className='p-4'><h1>404 - Page Not Found</h1></div>;
 
 // Protected Route Component
