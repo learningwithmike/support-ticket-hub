@@ -1,0 +1,42 @@
+{
+  "name": "support-ticket-hub-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://learningwithmike.github.io/support-ticket-hub",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
+    "axios": "^1.4.0",
+    "tailwindcss": "^3.3.2",
+    "react-icons": "^4.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "npm run build && gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "gh-pages": "^5.0.0"
+  }
+}
